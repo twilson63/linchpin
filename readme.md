@@ -73,7 +73,7 @@ SEE LICENSE
 
 ## Credits
 
-Ryan Dahl creator of nodejs and the whole nodejs team.
-Addy Osman for his presentations
+* Ryan Dahl creator of nodejs and the whole nodejs team.
+* Addy Osman for his presentations
 [videos](http://addyosmani.com/scalable-javascript-videos/)
 
