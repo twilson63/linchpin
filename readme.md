@@ -2,10 +2,10 @@
 
 Event Driven Application Architecture Module
 
-This module creates a singleton instance of an EventEmitter that can be
+This module creates a global instance of an EventEmitter that can be
 required by any module that would like to communicate with any other
 module in the application.  This module provides the ability to create
-fully loose coupled modules or event application architecture.
+loosly coupled modules or event application architecture.
 
 Event Application Architecture is the process of creating self contained
 modules that only communicate to other modules via messaging.  This
