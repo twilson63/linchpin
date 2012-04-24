@@ -2,19 +2,20 @@
   "author": "Tom Wilson <tom@jackhq.com>",
   "name": "linchpin",
   "description": "Indispensable fastener for building loosely coupled applications",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/twilson63/linchpin.git"
   },
-  "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
   "engines": {
     "node": "0.6 || 0.7 || 0.8"
   },
-  "dependencies": {},
+  "dependencies": {
+    "eventemitter2": "0.4.9"
+  },
   "devDependencies": {
     "coffee-script": "*",
     "mocha": "*"

@@ -5,14 +5,15 @@ Event Driven Application Architecture Module
 This module creates a global instance of an EventEmitter that can be
 required by any module that would like to communicate with any other
 module in the application.  This module provides the ability to create
-loosly coupled modules or event application architecture.
+loosely coupled modules or event application architecture.
 
 Event Application Architecture is the process of creating self contained
 modules that only communicate to other modules via messaging.  This
 significantly reduces the rigid coupling that causes applications to
 become hard to test and manage.
 
-## Usage
+
+## Basic Usage
 
 >module1.js
 
@@ -44,15 +45,22 @@ node main.js
 #> You Called Foo
 ```
 
+## Wildcard Support
+
+``` javascript
+var pin = require('linchpin');
+pin.on('foo/*', function () { console.log('you called foo xxx'); });
+pin.on('foo/bar/*', function () { console.log('you called foo bar xxx'); });
+pin.on('foo/bar/baz', function () { console.log('you called foo bar baz'); });
+
+pin.emit('foo/bar/baz');
+
+```
+
 ## Install
 
 ``` sh
 npm install linchpin
-```
-## Compile
-
-``` sh
-cake build
 ```
 
 ## Tests

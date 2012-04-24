@@ -1,1 +1,2 @@
 --require assert
+--compilers coffee:coffee-script
