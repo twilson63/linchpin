@@ -5,8 +5,8 @@ var util = require('util');
 function Linchpin() {
   EventEmitter2.call(this, {
     wildcard: true,
-    delimiter: '?',
-    maxListeners: 20
+    delimiter: '/',
+    maxListeners: 0
   }); 
 }
 
