@@ -12,4 +12,4 @@ function Linchpin() {
 
 util.inherits(Linchpin, EventEmitter2);
 
-module.exports = (_ref = global.linchpin) != null ? _ref : global.linchpin = new Linchpin();
+module.exports = (_ref = global.linchpin) != null ? _ref : new Linchpin();
