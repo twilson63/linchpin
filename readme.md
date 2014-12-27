@@ -1,5 +1,7 @@
 # Linchpin
 
+[![build status](https://secure.travis-ci.org/twilson63/linchpin.png)](http://travis-ci.org/twilson63/linchpin)
+
 Event Driven Application Architecture Module
 
 This module creates a global instance of an EventEmitter that can be
@@ -61,7 +63,7 @@ pin.emit('foo/bar/baz');
 ## Install
 
 ``` sh
-npm install linchpin
+npm install linchpin  --save
 ```
 
 ## Tests
@@ -85,4 +87,3 @@ SEE LICENSE
 * Ryan Dahl creator of nodejs and the whole nodejs team.
 * Addy Osman for his presentations
 [videos](http://addyosmani.com/scalable-javascript-videos/)
-
