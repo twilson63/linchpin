@@ -23,7 +23,7 @@ become hard to test and manage.
 ``` javascript
 var pin = require('linchpin');
 
-pin.on('foo', function() { console.log('you called foo.'); });
+pin.on('foo', function(d) { console.log('you called foo.'); });
 ```
 
 >module2.js
@@ -31,7 +31,7 @@ pin.on('foo', function() { console.log('you called foo.'); });
 ``` javascript
 var pin = require('linchpin');
 
-pin.emit('foo');
+pin.emit('foo', 'bar');
 ```
 
 >main.js

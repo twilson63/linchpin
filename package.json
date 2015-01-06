@@ -18,5 +18,14 @@
   },
   "devDependencies": {
     "tap": "^0.4.13"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/twilson63/linchpin/issues"
+  },
+  "homepage": "https://github.com/twilson63/linchpin",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "license": "MIT"
 }
